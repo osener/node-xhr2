@@ -515,6 +515,7 @@ class XMLHttpRequest extends XMLHttpRequestEventTarget
         @upload._reset()
         @_finalizeHeaders()
         @_sendHxxpRequest()
+        request.abort()
         return
 
     @_response = response
